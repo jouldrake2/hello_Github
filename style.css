@@ -1,0 +1,110 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.count{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    background-color: floralwhite;
+    box-shadow: 0 0 10px #ddd;
+    position:sticky;
+    top: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header .count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+
+
+}
+li a{
+    padding: 0 20px;
+    color: baby skyblue;
+    
+
+}
+.nav{
+    display: flex;
+}
+.logo{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.landing{
+    margin-top: 10px;
+    background-color: beige;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.intro{
+    size: 1px;
+}
+img{
+    width: 700px;
+    margin:5px;
+    float:left;
+}
+.article{
+    width: 300px;
+    margin: 5px;
+    float: left;
+}
+.clear{
+    clear:both;
+}
+.p1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: blue;
+}
+.p2{
+    width: 300px;
+    margin: 5px;
+    float: left;
+}
+.img_1{
+    width: 150px;
+    float: left;
+}
+.img_2{
+    width: 150px;
+    float: left;
+}
+.img_3{
+    width: 250px;
+    float: left;
+}
+.img_4{
+    width: 250px;
+    float: left;
+}
+.footer{
+    padding: 10px;
+    margin: 5px;
+    background-color: rosybrown;
+    text-align: center;
+    
+}
